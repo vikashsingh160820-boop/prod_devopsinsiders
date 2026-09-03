@@ -24,7 +24,16 @@ resource "azurerm_resource_group" "rg" {
 }
 
 
+storage_accounts = {
+  storage1 = {
+    name                     = "vikstorage05"
+    location                 = "japaneast"
+    resource_group_name      = "milan"
+    account_tier             = "Standard"
+    account_replication_type = "LRS"
 
+  }
+}
 
 
 
