@@ -24,7 +24,7 @@ resource "azurerm_resource_group" "rg" {
 }
 
 
-storage_accounts = {
+storage_account = {
   storage1 = {
     name                     = "vikstorage05"
     location                 = "japaneast"
